@@ -1,0 +1,23 @@
+## What is a class?
+- A class is a blueprint or a template for creating objects in object-oriented programming (OOP). It defines a set of attributes and methods that the objects created from the class will have. 
+
+## What is an instance?
+- An instance is a specific occurrence of an object created from a particular class. It represents a unique realization of the class, with its own set of attributes and data.
+
+## What is encapsulation?
+- Encapsulation is one of the fundamental principles of OOP, where the internal representation of an object is hidden from the outside. It involves bundling the data (attributes) and the methods that operate on the data into a single unit known as a class.
+
+## What is abstraction?
+- Abstraction is the process of simplifying complex systems by modeling classes based on the essential properties and behaviors they possess. It involves focusing on the relevant features of an object while ignoring unnecessary details.
+
+## What is inheritance?
+- Inheritance is a mechanism in OOP that allows a class (subclass or derived class) to inherit properties and behaviors (attributes and methods) from another class (superclass or base class).
+
+## What is multiple inheritance?
+- Multiple inheritance is a feature in some OOP languages where a class can inherit attributes and methods from more than one superclass. This allows a subclass to have multiple parent classes.
+
+## What is polymorphism?
+- Polymorphism allows objects of different types to be treated as objects of a common type. It allows a single interface to represent different types of objects, and it can be achieved through method overloading and method overriding.
+
+## What is method resolution order or MRO?
+- Method Resolution Order (MRO) is the order in which a programming language resolves method calls in the presence of multiple inheritance. It defines the sequence in which base classes are searched when looking for a method implementation in the hierarchy.
