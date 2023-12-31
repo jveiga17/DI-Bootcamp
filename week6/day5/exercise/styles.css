@@ -1,0 +1,93 @@
+body {
+  background-image: url(imgs/bg-pic.jpeg);
+  background-size: cover;
+  margin: 0;
+}
+
+/* nav */
+
+nav {
+  background-color: #241663;
+  padding: 1.5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.logo {
+  font-family: "SEGA LOGO FONT", sans-serif;
+  font-size: 1.5em;
+}
+
+/* search box */
+
+.search-box {
+  display: flex;
+  align-items: center;
+}
+
+.search-box input {
+  background-color: #241663;
+  color: white;
+  border: none;
+  padding: 5px;
+  margin-right: 5px;
+  border-bottom: 2px solid #6a759b; /* Bottom border */
+  transition: border-bottom-color 0.3s; /* Smooth transition for the border color */
+}
+
+.search-box input:focus {
+  border-bottom-color: white;
+  outline: none;
+}
+
+.search-box input:hover {
+  border-bottom-color: white;
+  cursor: text;
+}
+
+.search-box input::placeholder {
+  color: #6a759b;
+}
+
+.input-box {
+  color: white;
+}
+
+/* cards */
+
+section {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2vw;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+img {
+  width: 15vw;
+  border-radius: 50%;
+  background-color: lavender;
+}
+
+article {
+  background-image: url(imgs/cards-pic.jpg);
+  background-size: cover;
+  border-radius: 50px;
+  color: white;
+  padding: 1vw;
+  text-align: center;
+  transition: all 1s;
+  transition-timing-function: ease;
+  width: 20vw;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 2vw;
+}
+
+p {
+  font-size: 1vw;
+}
