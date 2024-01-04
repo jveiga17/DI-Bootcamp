@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 300px;
+            margin: auto;
+        }
+        input, textarea {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="" method="GET">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Send">
+    </form>
+
+<!-- 3. The data will be appended to the current URL -->
+
+<!-- Exercise 2 -->
+
+    <form action="." method="POST">
+        <!-- Input for Name -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <!-- Textarea for Message -->
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Send">
+    </form>
+
+<!-- 3. In the "Form Data" section; the data will be sent in the body of the request, not as query parameters in the URL -->
+
+</body>
+</html>
