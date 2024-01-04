@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form DC</title>
+</head>
+<body>
+    <form id="myForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+
+        <input type="button" value="Send" onclick="submitForm()">
+    </form>
+
+    <!-- display area for JSON string -->
+    <div id="jsonResult"></div>
+
+    <script src="dc.js">
+    </script>
+</body>
+</html>
