@@ -1,0 +1,15 @@
+form {
+  margin-bottom: 20px;
+}
+
+#gifContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+img {
+  max-width: 200px;
+  max-height: 200px;
+  margin-right: 10px;
+}
