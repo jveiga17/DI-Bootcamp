@@ -1,0 +1,62 @@
+body {
+  background-image: url(currencies.jpg);
+  font-family: "Montserrat", sans-serif;
+  margin: 10vw 25vw;
+  text-align: center;
+}
+
+.container {
+  background-color: darkgray;
+  border-radius: 8%;
+  color: black;
+  opacity: 0.85;
+  padding: 10px;
+}
+
+.h1text {
+  display: flex;
+  justify-content: center;
+}
+
+.fast {
+  font-family: "Lemon", serif;
+}
+
+.convert {
+  font-family: "Playfair Display", serif;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+}
+button {
+  margin-top: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  max-width: 200px;
+}
+
+.switchDiv {
+  margin: 10px 0 20px;
+}
+
+.convertDiv {
+  margin-top: 15px;
+}
+
+#result {
+  background-color: darkgray;
+  border-radius: 8%;
+  display: none;
+  color: black;
+  opacity: 0.85;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* 
+font-family: 'Lemon', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Quicksand', sans-serif; */
