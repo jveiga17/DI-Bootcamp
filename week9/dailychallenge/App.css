@@ -1,0 +1,25 @@
+.carousel-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.city-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  transition: opacity 0.3s ease;
+}
+
+.carousel-item:hover .city-overlay {
+  opacity: 1;
+}
