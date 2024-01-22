@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+#quote-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#text {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#author {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#new-quote {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  color: white;
+}
