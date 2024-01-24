@@ -1,0 +1,30 @@
+html {
+  background-color: thistle;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  text-align: center;
+}
+
+.input-div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+button {
+  margin: 2%;
+}
