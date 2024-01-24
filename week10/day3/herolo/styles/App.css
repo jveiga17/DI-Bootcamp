@@ -1,0 +1,20 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+.weather {
+  margin-top: 2rem;
+}
+
+.favorites {
+  margin-top: 2rem;
+}
