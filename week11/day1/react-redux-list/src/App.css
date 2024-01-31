@@ -1,0 +1,17 @@
+.add-todo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-todo-container input {
+  margin-bottom: 10px;
+}
+
+.todo-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px; /* Adjust the top margin as needed */
+}
